@@ -4,7 +4,7 @@
 
 ## OBSERVAÇÃO:
 
-* manual da placa btt m4p e m8p.
+* Manual da placa btt m4p e m8p.
   1. Consulte o manual [manual de instalação da placa m4p](./Images/BIGTREETECH_MANTA_M4P_User_Manual.pdf)
   2. Consulte o manual [manual de instalação da placa m8p](./Images/BIGTREETECH_MANTA_M8P_User_Manual.pdf)
 
