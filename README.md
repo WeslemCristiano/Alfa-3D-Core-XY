@@ -8,10 +8,7 @@
 
 ## Construir imagem de firmware
 
-1. Firmware pré-compilado (a versão do código-fonte usada é [Commits em 1º de julho de 2022](https://github.com/Klipper3d/klipper/commit/1636a9759bc2d5f162312ac8bf5823e95e0ad053))
-    * [firmware-USB.bin](./firmware-USB.bin) Use USB para se comunicar com SoC. O USB do MCU no M8P foi conectado ao CB1/CM4 na placa. Depois de atualizar o firmware, ele pode ser usado sem fiação adicional.
-
-2. Crie seu próprio firmware<br/>
+1. Crie seu próprio firmware<br/>
     1. Consulte a [instalação oficial do klipper](https://www.klipper3d.org/Installation.html) para baixar o código-fonte do klipper para raspberry pi.
     2. `Construindo o microcontrolador` com a configuração mostrada abaixo. (Se o seu klipper não puder selecionar a seguinte configuração, atualize o código-fonte do seu klipper)
        * [*] Habilite opções extras de configuração de baixo nível
