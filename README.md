@@ -4,7 +4,7 @@
 
 ## OBSERVAÇÃO:
 
-* Manual da placa btt m4p e m8p.
+* Manual da placa btt m4p e m8p:
   1. Consulte o manual [manual de instalação da placa m4p](./Images/BIGTREETECH_MANTA_M4P_User_Manual.pdf)
   2. Consulte o manual [manual de instalação da placa m8p](./Images/BIGTREETECH_MANTA_M8P_User_Manual.pdf)
 
@@ -49,7 +49,7 @@
 * E use o arquivo de configuração:
   1. [generic-bigtreetech-manta-m8p.cfg](./CCT_UENP_M8P/generic-bigtreetech-manta-m8p-V1_1.cfg)
   2. [generic-bigtreetech-manta-m4p.cfg](./M4P/generic-bigtreetech-manta-m4p.cfg)
-* como o `printer.cfg` subjacente, que inclui toda a pinagem correta para Octopus
+* como o `printer.cfg` subjacente, que inclui toda a pinagem correta para Mainsail.
   
 4. Consulte [Config_Reference oficial do klipper](https://www.klipper3d.org/Config_Reference.html) para configurar os recursos desejados.
 5. Se você usar USB para se comunicar com o raspberry pi, execute o comando `ls /dev/serial/by-id/*` no raspberry pi para obter o número de ID correto da placa-mãe e defina o número de ID correto em `M8P e M4P printer .cfg`.
