@@ -6,7 +6,7 @@
 
 * Esta placa-mãe vem com bootloader que permite atualização de firmware através do cartão SD MCU.
 
-## Construir imagem de firmware
+# Construir imagem de firmware
 
 1. Crie seu próprio firmware<br/>
     1. Consulte a [instalação oficial do klipper](https://www.klipper3d.org/Installation.html) para baixar o código-fonte do klipper para raspberry pi.
