@@ -47,8 +47,13 @@
 1. Consulte [instalação oficial do klipper](https://www.klipper3d.org/Installation.html) para `Configurando o OctoPrint para usar o Klipper`
 2. Consulte [instalação oficial do klipper](https://www.klipper3d.org/Installation.html) para `Configurando o Klipper`. E use o arquivo de configuração [generic-bigtreetech-manta-m8p.cfg](./generic-bigtreetech-manta-m8p.cfg) como o `printer.cfg` subjacente, que inclui toda a pinagem correta para Octopus
 3. Consulte [Config_Reference oficial do klipper](https://www.klipper3d.org/Config_Reference.html) para configurar os recursos desejados.
-4. Se você usar USB para se comunicar com o raspberry pi, execute o comando `ls /dev/serial/by-id/*` no raspberry pi para obter o número de ID correto da placa-mãe e defina o número de ID correto em `printer .cfg`.
+4. Se você usar USB para se comunicar com o raspberry pi, execute o comando `ls /dev/serial/by-id/*` no raspberry pi para obter o número de ID correto da placa-mãe e defina o número de ID correto em `M8P printer .cfg`.
      ```
      [mcu]
-     serial: /dev/serial/by-id/usb-Klipper_stm32g0b1xx_190028000D50415833323520-if00
+     serial: /dev/serial/by-id/usb-Klipper_stm32g0b1xx_3E0017000F504B4633373520-if00
+     ```
+`M4P printer .cfg`.
+     ```
+     [mcu]
+     serial: /dev/serial/by-id/usb-Klipper_stm32g0b1xx_hurakan-if00
      ```
