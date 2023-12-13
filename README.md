@@ -27,6 +27,7 @@
     5. O arquivo `klipper.bin` será gerado na pasta `home/pi/kliiper/out` quando o comando `make` for concluído. E você pode usar o computador Windows na mesma LAN do Raspberry Pi para copiar `klipper.bin` do Ra`M4P printer .cfg`.spberry Pi para o computador com o comando `pscp` no terminal CMD. como `pscp -C pi@192.168.0.101:/home/pi/klipper/out/klipper.bin c:\klipper.bin` (O terminal pode solicitar que `A chave do host do servidor não está armazenada em cache` e perguntar `Armazenar chave no cache?((s/n)`, digite `y` para armazenar. E então ele solicitará uma senha, digite a senha padrão `raspberry` para raspberry pi)
 
 ##Instalação de Firmware
+
 1. Você pode usar o método em [Build Firmware Image 2.5](#build-firmware-image) ou usar uma ferramenta como `cyberduck` ou `winscp` para copiar o arquivo `klipper.bin` do seu pi para o seu computador .
 2. Renomeado `firmware-USB.bin` ou `klipper.bin` (na pasta `home/pi/kliiper/out` criada por você mesmo) para `firmware.bin`<br/>
 **Importante:** Se o arquivo não for renomeado, o bootloader não será atualizado corretamente.
