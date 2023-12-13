@@ -27,7 +27,7 @@
        <img src=Images/menuconfig.png width="800" /><br/>
     3. Assim que a configuração for selecionada, pressione `q` para sair e "Sim" quando solicitado para salvar a configuração.
     4. Execute o comando `make`
-    5. O arquivo `klipper.bin` será gerado na pasta `home/pi/kliiper/out` quando o comando `make` for concluído. E você pode usar o computador Windows na mesma LAN do Raspberry Pi para copiar `klipper.bin` do Raspberry Pi para o computador com o comando `pscp` no terminal CMD. como `pscp -C pi@192.168.0.101:/home/pi/klipper/out/klipper.bin c:\klipper.bin` (O terminal pode solicitar que `A chave do host do servidor não está armazenada em cache` e perguntar `Armazenar chave no cache?((s/n)`, digite `y` para armazenar. E então ele solicitará uma senha, digite a senha padrão `raspberry` para raspberry pi)
+    5. O arquivo `klipper.bin` será gerado na pasta `home/pi/kliiper/out` quando o comando `make` for concluído. E você pode usar o computador Windows na mesma LAN do Raspberry Pi para copiar `klipper.bin` do Ra`M4P printer .cfg`.spberry Pi para o computador com o comando `pscp` no terminal CMD. como `pscp -C pi@192.168.0.101:/home/pi/klipper/out/klipper.bin c:\klipper.bin` (O terminal pode solicitar que `A chave do host do servidor não está armazenada em cache` e perguntar `Armazenar chave no cache?((s/n)`, digite `y` para armazenar. E então ele solicitará uma senha, digite a senha padrão `raspberry` para raspberry pi)
 
 ##Instalação de Firmware
 1. Você pode usar o método em [Build Firmware Image 2.5](#build-firmware-image) ou usar uma ferramenta como `cyberduck` ou `winscp` para copiar o arquivo `klipper.bin` do seu pi para o seu computador .
@@ -49,10 +49,12 @@
 3. Consulte [Config_Reference oficial do klipper](https://www.klipper3d.org/Config_Reference.html) para configurar os recursos desejados.
 4. Se você usar USB para se comunicar com o raspberry pi, execute o comando `ls /dev/serial/by-id/*` no raspberry pi para obter o número de ID correto da placa-mãe e defina o número de ID correto em `M8P e M4P printer .cfg`.
      ```
+     M8P
      [mcu]
      serial: /dev/serial/by-id/usb-Klipper_stm32g0b1xx_3E0017000F504B4633373520-if00
      ```
      ```
+     M4P
      [mcu]
      serial: /dev/serial/by-id/usb-Klipper_stm32g0b1xx_hurakan-if00
      ```
