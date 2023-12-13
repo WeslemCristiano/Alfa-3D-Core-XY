@@ -5,8 +5,8 @@
 ## OBSERVAÇÃO:
 
 * manual da placa btt m4p e m8p.
-  1. Consulte o manual [manual de instalação da placa m4p](https://www.klipper3d.org/Installation.html)
-  2. Consulte o manual [manual de instalação da placa m8p](https://www.klipper3d.org/Installation.html)
+  1. Consulte o manual [manual de instalação da placa m4p](./Images/BIGTREETECH_MANTA_M4P_User_Manual.pdf)
+  2. Consulte o manual [manual de instalação da placa m8p](./Images/BIGTREETECH_MANTA_M8P_User_Manual.pdf)
 
 # Construir imagem de firmware
 
