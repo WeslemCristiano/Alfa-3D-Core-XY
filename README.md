@@ -46,7 +46,7 @@
 ### Configuração básica
 1. Consulte [instalação oficial do klipper](https://www.klipper3d.org/Installation.html) para `Configurando o OctoPrint para usar o Klipper`
 2. Consulte [instalação oficial do klipper](https://www.klipper3d.org/Installation.html) para `Configurando o Klipper`.
-* E use o arquivo de configuração
+* E use o arquivo de configuração.
   1). [generic-bigtreetech-manta-m8p.cfg](./CCT_UENP_M8P/generic-bigtreetech-manta-m8p-V1_1.cfg)
   2). [generic-bigtreetech-manta-m4p.cfg](./M4P/generic-bigtreetech-manta-m4p.cfg)
 * como o `printer.cfg` subjacente, que inclui toda a pinagem correta para Octopus
