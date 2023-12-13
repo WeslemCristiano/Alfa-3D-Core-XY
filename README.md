@@ -4,7 +4,9 @@
 
 ## OBSERVAÇÃO:
 
-* Esta placa-mãe vem com bootloader que permite atualização de firmware através do cartão SD MCU.
+* manual da placa btt m4p e m8p.
+  1. Consulte o manual [manual de instalação da placa m4p](https://www.klipper3d.org/Installation.html)
+  2. Consulte o manual [manual de instalação da placa m8p](https://www.klipper3d.org/Installation.html)
 
 # Construir imagem de firmware
 
